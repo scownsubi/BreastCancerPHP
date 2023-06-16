@@ -1,0 +1,12 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix}UNIVERSIDAD DE LA SIERRA SUR.
+${licensePrefix}Licenciatura en Informática.
+${licensePrefix}Teconologias Web II.
+${licensePrefix}Luis Fernando Santiago Martínez.
+${licensePrefix}Fecha ${date?date?string("yyyy")}.
+${licensePrefix}Descripción.
+<#if licenseLast??>
+${licenseLast}
+</#if>
